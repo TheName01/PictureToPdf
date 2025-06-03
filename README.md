@@ -1,22 +1,26 @@
-# Picture to PDF Converter
+# Image Conversion Utilities
 
-This is a simple Python script that converts an image file to a PDF using the [Pillow](https://python-pillow.org/) library.
+This repository contains simple Python scripts for converting image files using the [Pillow](https://python-pillow.org/) library:
+
+- Convert a **single image to PDF**
+- Convert a **PNG image to JPG**
+
+---
 
 ## Features
 
-- Converts a single image to a PDF
-- Automatically navigates to a `PicturToPdf` folder (creates it if necessary)
-- CLI-based user input
+- Converts individual images via command line
+- Automatically navigates to a specific folder (`PicturToPdf` or `PNGtoJPG`)
+- Easy to use and modify
+
+---
 
 ## Requirements
 
 - Python 3.x
 - Pillow (Python Imaging Library fork)
 
-## Installation
-
-1. **Clone this repository** or download the script manually.
-2. **Install the required library**:
+Install Pillow with:
 
 ```bash
 pip install Pillow
